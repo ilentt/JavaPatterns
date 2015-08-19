@@ -5,7 +5,7 @@ import java.lang.reflect.Constructor;
 public class ReflectionSingleton {
 
 	public ReflectionSingleton() {
-		// constructor
+		// constructor avoid client application to use constructor
 	}
 	
 	@SuppressWarnings("rawtypes")
