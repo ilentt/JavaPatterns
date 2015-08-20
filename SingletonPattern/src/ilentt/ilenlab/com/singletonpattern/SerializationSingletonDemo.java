@@ -1,5 +1,8 @@
 package ilentt.ilenlab.com.singletonpattern;
 	/*
+	 * we need to implement Serializable interface in Singleton class 
+	 * so that we can store it’s state in file system and 
+	 * retrieve it at later point of time
 	 * source: http://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-with-examples
 	 * 
 	 */
